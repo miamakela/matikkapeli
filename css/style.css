@@ -1,0 +1,17 @@
+div {
+    margin: 2em;
+}
+
+#correct {
+    width: 100px;
+    padding: 1vh;
+    border-radius: 5%;
+    background-color: greenyellow;
+}
+
+#incorrect {
+    width: 100px;
+    padding: 1vh;
+    border-radius: 5%;
+    background-color: red;
+}

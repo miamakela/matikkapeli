@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Math game</title>
+</head>
+<body>
+    <div id="container">
+        <h3>Math game</h3>
+        <form>
+            <div>
+                <output id="num1"></output>&nbsp;+
+                <output id="num2"></output>&nbsp;=
+                <input type="number" />
+            </div>
+            <div>
+                <button type="button" id="calculate">Answer</button>
+            </div>
+            <div id="correct">
+                <label>Correct answers:</label>
+                <output id="correctAnswers">0</output>
+            </div>
+            <div id="incorrect">
+                <label>Incorrect answers:</label>
+                <output id="incorrectAnswers">0</output>
+            </div>
+        </form>
+    </div>
+    <script src="./js/functions.js"></script>   
+</body>
+</html>
